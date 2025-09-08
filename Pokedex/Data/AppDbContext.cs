@@ -15,7 +15,7 @@ namespace Pokedex.Data
         public DbSet<Genero> Genero { get; set; }
         public DbSet<Pokemon> Pokemons { get; set; }
         public DbSet<PokemonTipo> PokemonsTipos { get; set; }
-        public DbSet<Regiao> Regiao { get; set; }
+        public DbSet<Regiao> Regioes { get; set; }
         public DbSet<Tipo> Tipos { get; set; }
     }
 }
